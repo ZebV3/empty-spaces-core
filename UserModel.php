@@ -1,13 +1,13 @@
 <?php
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
-use app\core\db\DbModel;
+use zebv3\EmptySpacesCore\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 abstract class UserModel extends DbModel

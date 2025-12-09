@@ -1,5 +1,5 @@
 <?php
-namespace app\core\exception;
+namespace zebv3\EmptySpacesCore\exception;
 
 use Exception;
 
@@ -7,7 +7,7 @@ use Exception;
  * Class NotFoundException
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 class NotFoundException extends Exception

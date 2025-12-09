@@ -1,11 +1,11 @@
 <?php
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
 /**
  * Class Response
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 class Response
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\db;
+namespace zebv3\EmptySpacesCore\db;
 
-use app\core\Application;
-use app\core\Model;
+use zebv3\EmptySpacesCore\Application;
+use zebv3\EmptySpacesCore\Model;
 
 /**
  * Class DbModel
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 abstract class DbModel extends Model

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
-use app\core\middlewares\BaseMiddleware;
+use zebv3\EmptySpacesCore\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 class Controller
 {
@@ -16,7 +16,7 @@ class Controller
     public string $action = '';
     /**
      * array of middlewares
-     * @var array \app\core\middlewares\BaseMiddleware[]
+     * @var array \zebv3\EmptySpacesCore\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

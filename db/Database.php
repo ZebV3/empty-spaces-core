@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\db;
+namespace zebv3\EmptySpacesCore\db;
 
-use app\core\Application;
+use zebv3\EmptySpacesCore\Application;
 use PDO;
 
 /**
  * Class Database
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 class Database

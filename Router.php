@@ -1,13 +1,13 @@
 <?php
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
-use app\core\exception\NotFoundException;
+use zebv3\EmptySpacesCore\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 class Router
 {
@@ -17,8 +17,8 @@ class Router
 
     /**
      * Router Class Constructor
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \zebv3\EmptySpacesCore\Request $request
+     * @param \zebv3\EmptySpacesCore\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -49,7 +49,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \zebv3\EmptySpacesCore\Controller $controller */
             $controller = new $callback[0]();
             Application::$application->controller = $controller;
             $controller->action = $callback[1];

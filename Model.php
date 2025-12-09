@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
 /**
  * Class Model
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 abstract class Model

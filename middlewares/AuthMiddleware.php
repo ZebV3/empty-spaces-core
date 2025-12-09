@@ -1,14 +1,14 @@
 <?php
-namespace app\core\middlewares;
+namespace zebv3\EmptySpacesCore\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use zebv3\EmptySpacesCore\Application;
+use zebv3\EmptySpacesCore\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 class AuthMiddleware extends BaseMiddleware

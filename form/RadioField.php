@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace zebv3\EmptySpacesCore\form;
 
-use app\core\Model;
+use zebv3\EmptySpacesCore\Model;
 
 /**
  * Class Field
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 
 class RadioField extends BaseField

@@ -1,15 +1,15 @@
 <?php
-namespace app\core;
+namespace zebv3\EmptySpacesCore;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use zebv3\EmptySpacesCore\db\Database;
+use zebv3\EmptySpacesCore\db\DbModel;
 use Exception;
 
 /**
  * Class Application
  * 
  * @author Shahzaib Hassan <shahzaibhassan1578.dev@gmail.com>
- * @package app\core
+ * @package zebv3\EmptySpacesCore
  */
 class Application
 {
