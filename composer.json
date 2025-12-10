@@ -1,7 +1,6 @@
 {
   "name": "zebv3/empty-spaces-core",
   "description": "PHP MVC application development core",
-  "version": "v0.1.0-alpha",
   "type": "library",
   "autoload": {
     "psr-4": {
